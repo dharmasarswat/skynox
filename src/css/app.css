@@ -1,0 +1,67 @@
+.app{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile{
+    margin-top: 10%;
+    width: 100%;
+    min-width: 200px;
+}
+
+.profile .item{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.profile .item >i{
+    font-size: var(--large-font-size);
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+
+.notify{
+    color: black;
+    margin-top: 5px;
+    font-size: var(--medium-font-size);
+    display: block;
+}
+
+.card{
+    height: 100%;
+    min-height: 200px;
+    width: 100%;
+    padding: 20px;
+    background-color: tomato;
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.card .time{
+    font-weight: normal;
+    color: white;
+    width: max-content;
+    font-size: var(--small-font-size);
+    padding: 5px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+}
+
+.card .bottom-text{
+    position: absolute;
+    font-size: var(--medium-font-size);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}

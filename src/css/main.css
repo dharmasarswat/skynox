@@ -1,0 +1,39 @@
+main{
+    padding: 30px 50px;
+    min-width: 700px;
+}
+
+.story{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.story img{
+    width: 50px;
+    padding: 3px;
+    margin: 0px 7px;
+    border-radius: 40%;
+    border: 2px solid var(--primary-color);
+}
+
+.popular{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 400px;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.top-tutors{
+    margin-top: -40px;
+    width: 100%;
+    display: inline-flex;
+    gap: 20px;
+}
